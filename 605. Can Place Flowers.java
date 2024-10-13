@@ -1,4 +1,4 @@
-class debug {
+class Solution{   
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int count=0;
         int pos=0;
@@ -42,13 +42,4 @@ class debug {
             return true;
         return false;
     }
-    public static void main(String[] args) {
-        debug d = new debug();
-        int[] a=new int[]{0};
-        System.out.println(d.canPlaceFlowers(a, 1));
-    }
-    
 }
-
-
-
